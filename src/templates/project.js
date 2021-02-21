@@ -34,9 +34,9 @@ export default class Project extends React.Component {
                   <img src={withPrefix(_.get(this.props, 'pageContext.frontmatter.image', null))} alt={_.get(this.props, 'pageContext.frontmatter.image_alt', null)} />
                 </div>
                 )}
-                <div className="post-content inner-sm">
+                {/* <div className="post-content inner-sm">
                   {htmlToReact(_.get(this.props, 'pageContext.html', null))}
-                </div>
+                </div> */}
               </article>
             </div>
             </Layout>
